@@ -82,5 +82,11 @@ nav ul li a:hover {
   background-color: var(--secondary-color);
 }
 
+/*** Header ***/
+.header {
+  background: url(../img/main-cake.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
 
 
