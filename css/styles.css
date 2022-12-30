@@ -39,6 +39,8 @@ a {
 
 /*** Menu ***/
 .menu {
+  position: sticky;
+  top: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -48,7 +50,7 @@ a {
   margin: 0;
   font-size: 1.2rem;
   background-color: var(--main-color);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .menu .logo {
@@ -138,6 +140,22 @@ nav ul li a:hover {
   align-items: center;
   height: 100vh;
   background: url(../img/main-cake.jpg) no-repeat center center/cover;
+}
+
+.brownie {
+  background: url(../img/brownie.webp) no-repeat center center/cover;
+}
+
+.chocolate {
+  background: url(../img/cake.jpg) no-repeat center center/cover;
+}
+
+.coffee {
+  background: url(../img/coffee_cake.jpg) no-repeat center center/cover;
+}
+
+.cookie {
+  background: url(../img/cookies.jpg) no-repeat center center/cover;
 }
 
 .header .title {
