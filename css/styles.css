@@ -152,6 +152,17 @@ nav ul li a:hover {
   color: inherit;
 }
 
+/*** Gallery ***/
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+img {
+  width: 50%;
+  height: 15%;
+}
+
 /*** Footer ***/
 .footer {
   padding: 2rem 1.5rem;
