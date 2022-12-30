@@ -152,6 +152,28 @@ nav ul li a:hover {
   color: inherit;
 }
 
+/*** About ***/
+.about {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 10rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.about .subtitle {
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.about .description {
+  font-family: Lora, sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
 /*** Gallery ***/
 .gallery {
   display: flex;
